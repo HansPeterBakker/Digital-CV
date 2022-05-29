@@ -127,8 +127,3 @@ Outdoors: Hiking, Mountain biking, Rock Climbing
 **CURRENT POSITION**
 
 I am currently working at Mecad systems, where I have learnt a great deal. Besides numerous qualifications I have run projects with multiple major universities in the Cape Town area with emphasis on cloud computing and Simulations.
-
-
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:

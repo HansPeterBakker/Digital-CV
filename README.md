@@ -16,7 +16,7 @@ I aim to apply the skills I have learnt throughout my degree and over my gap yea
 
 **Vacation work**
 
-*Delta V | Wijnland Ingenieurswese Somerset West, Stellenbosch*
+*Delta V & Wijnland Ingenieurswese Somerset West, Stellenbosch*
 
 Dec 2019 / Jun 2021
 

@@ -1,45 +1,91 @@
-<header>
-  <a href="#" id="logo">Logo</a>
-</header>
+@import "compass";
+html, body{
+  margin:0px; padding:0px;
+}
 
-<section id="hero1" class="hero">
-  <div class="inner">
-    <div class="copy">
-    <h1>Choice mountains bro</h1>
-    <p>Its like im actually there! But sitting at a computer. Wow, the future is intense!</p>
-    </div>
-  </div>
-</section>
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-<section class="content">
-  <div class="inner">
-    <div class="copy">
-    <h1>Amazing copy!</h1>
-    <p>The words are like jumping out at me man! </p>
-    </div>
-  </div>
-</section>
+header{
+  z-index: 1;
+  position:fixed; 
+  width:100%; 
+  height:60px; 
+  background:rgba(0,0,0,0.1);
+}
 
-<section id="hero2" class="hero">
-  <div class="inner">
-    <div class="copy">
-    <h1>Dem some big ass caves</h1>
-    <p>You could probably fit in there ;)</p>
-    </div>
-  </div>
-</section>
-  
-<section class="content">
-  <div class="inner">
-    <div class="copy">
-    <h1>An inspiring quote</h1>
-      <p>/-- file not found --/</p>
-    </div>
-  </div>
-</section>
+header a{
+  color:white;
+  background:rgba(0,0,0,0.1); 
+  display:inline-block; 
+  padding:0px 30px; 
+  height:60px;
+  line-height:60px; 
+  text-align:center;
+  font-family: 'Roboto Slab', serif; 
+  text-decoration:none;
+  text-transform:uppercase; 
+  letter-spacing:2px; 
+  font-weight:700;
+}
+#hero1{
+ background:url(http://4.bp.blogspot.com/_AQ0vcRxFu0A/S9shDGGyMTI/AAAAAAAAAYk/kn3WTkY2LoQ/s1600/IMG_0714.JPG);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+#hero2{background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/21555/Melissani-cave-natural.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+.hero, .content{
+  text-align:center; 
+  position:relative;
+  width: 100%;
+}
 
-<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+.inner{
+  min-height:600px;
+  position: relative;
+}
+
+.hero .inner{
+  background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;}
+
+
+.copy{
+  position:absolute; 
+  top:50%; 
+  height:10em; 
+  margin-top:-5em; 
+  width:100%;
+}
+
+.hero h1, .hero p{ 
+  color:#fff;
+}
+
+.content h1, .content p{
+  color:#333;
+}
+
+h1{
+  margin:0px;
+  font-family: 'Roboto Slab', serif;
+  font-weight:400;
+  font-size:32px;
+  padding:0px 20px;
+}
+
+p{
+  font-family: 'Noto Sans', sans-serif; 
+  font-size:14px;
+  padding:0px 20px;
+}
 
 Hans-Peter Bakker
 

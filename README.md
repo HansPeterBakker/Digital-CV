@@ -11,7 +11,6 @@ hbakker0121@gmail.com
 
 I aim to apply the skills I have learnt throughout my degree and over my gap year in Canada to develop myself as a person and as a Professional Engineer. As well as to assimilate as many skills and lessons as possible from those with more experience than myself.
  
- BLAHBLAHBLAH
  
 ***WORK EXPERIENCE***
 

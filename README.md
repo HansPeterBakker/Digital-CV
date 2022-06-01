@@ -93,6 +93,8 @@ Jan 2019 / Aug 2021
 
 - *MATLAB* : 2-3 years of experience using MATLAB as an analytical, mathematic and display tool.
 
+- Sql : Basic background experience
+
 
 **ACCOLADES**
 
